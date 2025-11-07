@@ -18,6 +18,9 @@ obsidian
 brave-bin
 fastfetch
 polybar
+copyq - clipboard manager (text + images) 
+maim - screenshot tool
+xclip - copies image to clipboard
 
 # development
 nvim
