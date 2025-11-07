@@ -39,4 +39,5 @@ Commands
 go to dotfiles 
 - stow picom
 
+
 stow .
