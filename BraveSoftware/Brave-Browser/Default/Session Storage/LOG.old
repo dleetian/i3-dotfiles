@@ -1,8 +1,0 @@
-2025/11/07-14:49:15.806 5 Creating DB /home/dleetian/.config/BraveSoftware/Brave-Browser/Default/Session Storage since it was missing.
-2025/11/07-14:49:15.816 5 Reusing MANIFEST /home/dleetian/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2025/11/07-14:57:11.628 5 Level-0 table #5: started
-2025/11/07-14:57:11.646 5 Level-0 table #5: 48157 bytes OK
-2025/11/07-14:57:11.651 5 Delete type=0 #3
-2025/11/07-15:02:24.715 7 Level-0 table #7: started
-2025/11/07-15:02:24.732 7 Level-0 table #7: 48690 bytes OK
-2025/11/07-15:02:24.735 7 Delete type=0 #4
