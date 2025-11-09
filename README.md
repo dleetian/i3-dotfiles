@@ -3,30 +3,30 @@ This configuration file is built for speed and battery life for my X230 with a f
 
 # My applications
 ## i3 environment
-i3 
-alacritty
-fastfetch instead of neofetch
-polybar
-rofi
-feh
-copyq - clipboard manager (text + images)
-maim - screenshot tool
-xclip - copies image to clipboard
-stow
-picom
-nerd-fonts - 67
+- i3 
+- alacritty
+- fastfetch instead of neofetch
+- polybar
+- rofi
+- feh
+- copyq - clipboard manager (text + images)
+- maim - screenshot tool
+- xclip - copies image to clipboard
+- stow
+- picom
+- nerd-fonts - 67
 
 ## browser, development, and files
-dolphin instead of nautilus
-nvim
-node
-tmux
-obsidian
-brave-bin
+- dolphin instead of nautilus
+- nvim
+- node
+- tmux
+- obsidian
+- brave-bin
 
 ## reading (books)
-Foliate for epub files
-Okular for everything else
+- Foliate for epub files
+- Okular for everything else
 
 # Setup 
 Setting up the environment is simple. 
