@@ -32,6 +32,7 @@ This configuration file is built for speed and battery life for my X230 with a f
 Setting up the environment is simple. 
 First, modify the system files to allow i3 to run. Just put `exec i3` in the `~/.xinitrc` file. 
 What this does is that it runs i3 when we type the command `startx`.
+
 `~/.xinitrc`
 ```bash
 exec i3
@@ -40,6 +41,7 @@ exec i3
 Second, install the applications defined above using yay or pacman.
 ****
 Third, clone my GitHub dotfiles and move it to `.config` using `stow .`.
+
 Clone my repository
 ```bash
 git clone https://github.com/dleetian/i3-dotfiles.git ~/dotfiles
@@ -48,6 +50,7 @@ stow .
 ```
 ****
 The setup is complete at this point. Go run `startx` in the terminal to run the environment.
+
 ```bash
 startx
 ```
@@ -56,7 +59,7 @@ startx
 My controls are simple. `Super` key stands is the `Windows` key. 
 
 ## Opening Applications
-`Super + D` opens the application launcher (`rofi`).
+- `Super + D` opens the application launcher (`rofi`).
 
 ## Navigation Controls
 - `Super + H` focus on the left panel.
