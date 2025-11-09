@@ -1,46 +1,98 @@
-Install Stow and stow . everything
+This configuration file is built for speed and battery life for my X230 with a fake battery so the interface looks primitive and raw. 
+`tlp` configuration caps my CPU to max-power of 50% on BAT. This gives me around 4 hours of battery life -- instead of ~1 hour in Windows 10.
 
-TODO:
-- we need clipboard and screenshot function
+# My applications
+## i3 environment
+- i3 
+- alacritty
+- fastfetch instead of neofetch
+- polybar
+- rofi
+- feh
+- copyq - clipboard manager (text + images)
+- maim - screenshot tool
+- xclip - copies image to clipboard
+- stow
+- picom
+- nerd-fonts - 67
 
-Install 
-i3-wm
-Alacritty
-nerd-fonts - 67
-stow
-polybar
-feh
-rofi
-dolphin
-okular
-foliate
-obsidian
-brave-bin
-fastfetch
-polybar
-copyq - clipboard manager (text + images) 
-maim - screenshot tool
-xclip - copies image to clipboard
+## browser, development, and files
+- dolphin instead of nautilus
+- nvim
+- node
+- tmux
+- obsidian
+- brave-bin
 
-# development
-nvim
-node
-tmux
+## reading (books)
+- Foliate for epub files
+- Okular for everything else
 
+# Setup 
+Setting up the environment is simple. 
+First, modify the system files to allow i3 to run. Just put `exec i3` in the `~/.xinitrc` file. 
+What this does is that it runs i3 when we type the command `startx`.
 
-Modify
 `~/.xinitrc`
 ```bash
 exec i3
 ```
+****
+Second, install the applications defined above using yay or pacman.
+****
+Third, clone my GitHub dotfiles and move it to `.config` using `stow .`.
 
-
-we need clipboard
-put your wlalpaper in ~/.config/wallpaper/wallpaper.png
-
-Commands
-go to dotfiles 
-- stow picom
-
-
+Clone my repository
+```bash
+git clone https://github.com/dleetian/i3-dotfiles.git ~/dotfiles
+cd dotfiles
 stow .
+```
+****
+The setup is complete at this point. Go run `startx` in the terminal to run the environment.
+
+```bash
+startx
+```
+
+# Controls
+My controls are simple. `Super` key stands is the `Windows` key. 
+
+## Opening Applications
+- `Super + D` opens the application launcher (`rofi`).
+
+## Navigation Controls
+- `Super + H` focus on the left panel.
+- `Super + L` focus on the right panel.
+- `Super + J` focus on the bottom panel.
+- `Super + K` focus on the top panel.
+- `Super + [0-9]` go to workspace #.
+
+## Moving the Panels
+- `Super + Shift + H` move the current panel to the left.
+- `Super + Shift + L` move the current panel to the right.
+- `Super + Shift + J` move the current panel to the bottom.
+- `Super + Shift + K` move the current panel to the top.
+- `Super + Shift + [0-9]` move the current panel to workspace #.
+
+## Other modes
+- `Super + S` to allow layout stacking. To exit the layout stacking, move your panel to left/right/bottom/top.
+- `Super + T` to toggle floating/tiling on the current panel.
+- `Super + F` to toggle fullscreen on the current panel.
+- `Super + Shift + R` to restart the current X session.
+- `Super + Shift + E` to exit of the current X session.
+
+# Resizing the Panels
+First, press `Super + R` to allow resizing. Then do the following.
+For the following keybinds, you can use arrow keys instead of `H/L/J/K`.
+- `H/arrow left` shrink the width of the panel. 
+- `L/arrow right` increase the width of the panel.
+- `J/arrow down` shrink the height of the panel.
+- `K/arrow up` increase the height of the panel.
+After resizing, press `Super + R` again.
+
+# Clipboard and Screenshot
+You can copy contents with `ctrl + c`. Texts and images is saved on the clipboard (`copyq`).
+- `Super + V` toggle clipboard. 
+- `Printscreen` screenshots the whole screen.
+- `Super + Printscreen` selective screenshot by drag clicking.
