@@ -1,3 +1,6 @@
+This configuration file is built for speed and battery life for my X230 with a fake battery so the interface looks primitive and raw. 
+`tlp` configuration caps my CPU to max-power of 50% on BAT. This gives me around 4 hours of battery life -- instead of ~1 hour in Windows 10.
+
 # My applications
 ## i3 environment
 i3 
