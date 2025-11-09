@@ -56,25 +56,25 @@ My controls are simple. `Super` key stands is the `Windows` key.
 `Super + D` opens the application launcher (`rofi`).
 
 ## Navigation Controls
-`Super + H` focus on the left panel.
-`Super + L` focus on the right panel.
-`Super + J` focus on the bottom panel.
-`Super + K` focus on the top panel.
-`Super + [0-9]` go to workspace #.
+- `Super + H` focus on the left panel.
+- `Super + L` focus on the right panel.
+- `Super + J` focus on the bottom panel.
+- `Super + K` focus on the top panel.
+- `Super + [0-9]` go to workspace #.
 
 ## Moving the Panels
-`Super + Shift + H` move the current panel to the left.
-`Super + Shift + L` move the current panel to the right.
-`Super + Shift + J` move the current panel to the bottom.
-`Super + Shift + K` move the current panel to the top.
-`Super + Shift + [0-9]` move the current panel to workspace #.
+- `Super + Shift + H` move the current panel to the left.
+- `Super + Shift + L` move the current panel to the right.
+- `Super + Shift + J` move the current panel to the bottom.
+- `Super + Shift + K` move the current panel to the top.
+- `Super + Shift + [0-9]` move the current panel to workspace #.
 
 ## Other modes
-`Super + S` to allow layout stacking. To exit the layout stacking, move your panel to left/right/bottom/top.
-`Super + T` to toggle floating/tiling on the current panel.
-`Super + F` to toggle fullscreen on the current panel.
-`Super + Shift + R` to restart the current X session.
-`Super + Shift + E` to exit of the current X session.
+- `Super + S` to allow layout stacking. To exit the layout stacking, move your panel to left/right/bottom/top.
+- `Super + T` to toggle floating/tiling on the current panel.
+- `Super + F` to toggle fullscreen on the current panel.
+- `Super + Shift + R` to restart the current X session.
+- `Super + Shift + E` to exit of the current X session.
 
 # Resizing the Panels
 First, press `Super + R` to allow resizing. Then do the following.
@@ -84,3 +84,9 @@ For the following keybinds, you can use arrow keys instead of `H/L/J/K`.
 - `J/arrow down` shrink the height of the panel.
 - `K/arrow up` increase the height of the panel.
 After resizing, press `Super + R` again.
+
+# Clipboard and Screenshot
+You can copy contents with `ctrl + c`. Texts and images is saved on the clipboard (`copyq`).
+- `Super + V` toggle clipboard. 
+- `Printscreen` screenshots the whole screen.
+- `Super + Printscreen` selective screenshot by drag clicking.
